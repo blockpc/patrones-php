@@ -1,0 +1,16 @@
+{
+    "name": "blockpc/patrones-php",
+    "description": "Revision de patrones de patrones de diseño en php",
+    "autoload": {
+        "psr-4": {
+            "Blockpc\\PatronesPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "blockpc",
+            "email": "soporte.blockpc@gmail.com"
+        }
+    ],
+    "require": {}
+}
