@@ -12,5 +12,7 @@
             "email": "soporte.blockpc@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twig/twig": "^3.0"
+    }
 }

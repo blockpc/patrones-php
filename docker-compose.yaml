@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: .docker/nginx/Dockerfile
     volumes:
-      - ./src/:/var/www/html/
+      - ./:/var/www/html/
     ports:
       - "80:80"
     depends_on:
@@ -25,7 +25,7 @@ services:
         UID: ${UID:-1000}
         GID: ${GID:-1000}
     volumes:
-      - ./src/:/var/www/html/
+      - ./:/var/www/html/
     networks:
       - internal
 
