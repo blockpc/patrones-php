@@ -18,7 +18,7 @@ Como resultado, podrás proporcionar a la aplicación el objeto de fábrica que 
 
 ## Articulo original
 
-El articulo original lo puedes encontrar aca
+El articulo original lo puedes encontrar [aca](https://refactoring.guru/es/design-patterns/abstract-factory/php/example#lang-features)
 
 ## Mi estructura
 
@@ -41,3 +41,7 @@ El articulo original lo puedes encontrar aca
         - PHPTemplateRenderer.php
         - PHPTemplateTitle.php
 - Page.php
+
+## Como ejecutar
+
+Copia y pega el contenido del archivo `index.php` de esta carpeta en `public/index.php` y claro solo reemplaza el `phpinfo();`
