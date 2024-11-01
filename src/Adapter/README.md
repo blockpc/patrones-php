@@ -14,9 +14,13 @@ El patrón Adapter es muy común en el código PHP. Se utiliza muy a menudo en s
 
 Adapter es reconocible por un constructor que toma una instancia de distinto tipo de clase abstracta/interfaz. Cuando el adaptador recibe una llamada a uno de sus métodos, convierte los parámetros al formato adecuado y después dirige la llamada a uno o varios métodos del objeto envuelto.
 
+## Ejemplo del mundo real
+
+El patrón Adapter te permite utilizar clases de terceros o heredadas incluso aunque sean incompatibles con el grueso de tu código. Por ejemplo, en lugar de reescribir la interfaz de notificación de tu aplicación para que soporte todos los servicios de terceros, como Slack, Facebook, SMS u otros, puedes crear un grupo de envoltorios especiales que adaptan las llamadas desde tu aplicación a una interfaz y formato requerido por cada una de las clases de terceros.
+
 ## Articulo original
 
-El articulo original lo puedes encontrar [aca](https://refactoring.guru/es/design-patterns/abstract-factory/php/example#lang-features)
+El articulo original lo puedes encontrar [aca](https://refactoring.guru/es/design-patterns/adapter/php/example#lang-features)
 
 ## Mi estructura
 

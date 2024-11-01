@@ -8,6 +8,8 @@ use Blockpc\PatronesPhp\AbstractFactory\Factories\PHPTemplateFactory;
 use Blockpc\PatronesPhp\AbstractFactory\Factories\TwigTemplateFactory;
 use Blockpc\PatronesPhp\AbstractFactory\Page;
 
+header('Content-type: text/plain');
+
 $page = new Page('Sample page', 'This is the body.');
 
 echo "Testing actual rendering with the PHPTemplate factory:\n";

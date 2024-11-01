@@ -11,6 +11,8 @@ use Blockpc\PatronesPhp\Adapter\Notifications\EmailNotification;
 use Blockpc\PatronesPhp\Adapter\Notifications\SlackNotification;
 use Blockpc\PatronesPhp\Adapter\SlackApi;
 
+header('Content-type: text/plain');
+
 echo "Client code is designed correctly and works with email notifications:\n";
 $notification = new EmailNotification("developers@example.com");
 clientNotificationCode($notification);
