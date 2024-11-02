@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\Adapter\Notifications;
+namespace Src\Adapter\Notifications;
 
-use Blockpc\PatronesPhp\Adapter\Interfaces\NotificationInterface;
+use Src\Adapter\Interfaces\NotificationInterface;
 
 /**
  * Here's an example of the existing class that follows the Target interface.

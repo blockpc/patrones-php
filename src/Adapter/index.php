@@ -7,9 +7,9 @@ declare(strict_types=1);
 // clientNotificationCode() is a helper function that expects an instance of the Notification interface.
 // This function is in the src/helpers.php file. load by composer autoload
 
-use Blockpc\PatronesPhp\Adapter\Notifications\EmailNotification;
-use Blockpc\PatronesPhp\Adapter\Notifications\SlackNotification;
-use Blockpc\PatronesPhp\Adapter\SlackApi;
+use Src\Adapter\Notifications\EmailNotification;
+use Src\Adapter\Notifications\SlackNotification;
+use Src\Adapter\SlackApi;
 
 header('Content-type: text/plain');
 

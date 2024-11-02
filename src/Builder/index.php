@@ -7,8 +7,10 @@ declare(strict_types=1);
 // clientBuilderCode() is a helper function that expects an instance of the Notification interface.
 // This function is in the src/helpers.php file. load by composer autoload
 
-use Blockpc\PatronesPhp\Builder\Builders\MysqlQueryBuilder;
-use Blockpc\PatronesPhp\Builder\Builders\PostgresQueryBuilder;
+use Src\Builder\Builders\MysqlQueryBuilder;
+use Src\Builder\Builders\PostgresQueryBuilder;
+
+header('Content-type: text/plain');
 
 /**
  * The application selects the proper query builder type depending on a current

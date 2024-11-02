@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Templates\Twig;
+namespace Src\AbstractFactory\Templates\Twig;
 
-use Blockpc\PatronesPhp\AbstractFactory\Templates\BasePageTemplate;
+use Src\AbstractFactory\Templates\BasePageTemplate;
 
 /**
  * The Twig variant of the whole page templates.

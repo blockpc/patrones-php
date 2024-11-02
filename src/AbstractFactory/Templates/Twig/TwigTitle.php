@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Templates\Twig;
+namespace Src\AbstractFactory\Templates\Twig;
 
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TitleTemplateInterface;
+use Src\AbstractFactory\Interfaces\TitleTemplateInterface;
 
 /**
  * This Concrete Product provides Twig page title templates.

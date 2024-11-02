@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Templates\Php;
+namespace Src\AbstractFactory\Templates\Php;
 
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TemplateRendererInterface;
+use Src\AbstractFactory\Interfaces\TemplateRendererInterface;
 
 final class PHPTemplateRenderer implements TemplateRendererInterface
 {

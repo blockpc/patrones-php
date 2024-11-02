@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Interfaces;
+namespace Src\AbstractFactory\Interfaces;
 
 /**
  * The Abstract Factory interface declares creation methods for each distinct

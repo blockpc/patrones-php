@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\Builder\Interfaces;
+namespace Src\Builder\Interfaces;
 
 /**
  * The Builder interface declares a set of methods to assemble an SQL query.

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\Builder\Builders;
+namespace Src\Builder\Builders;
 
-use Blockpc\PatronesPhp\Builder\Interfaces\SQLQueryBuilderInterface;
+use Src\Builder\Interfaces\SQLQueryBuilderInterface;
 
 /**
  * Each Concrete Builder corresponds to a specific SQL dialect and may implement

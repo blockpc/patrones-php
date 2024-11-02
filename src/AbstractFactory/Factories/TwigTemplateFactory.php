@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Factories;
+namespace Src\AbstractFactory\Factories;
 
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\PageTemplateInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TemplateFactoryInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TemplateRendererInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TitleTemplateInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Templates\Twig\TwigPage;
-use Blockpc\PatronesPhp\AbstractFactory\Templates\Twig\TwigRenderer;
-use Blockpc\PatronesPhp\AbstractFactory\Templates\Twig\TwigTitle;
+use Src\AbstractFactory\Interfaces\PageTemplateInterface;
+use Src\AbstractFactory\Interfaces\TemplateFactoryInterface;
+use Src\AbstractFactory\Interfaces\TemplateRendererInterface;
+use Src\AbstractFactory\Interfaces\TitleTemplateInterface;
+use Src\AbstractFactory\Templates\Twig\TwigPage;
+use Src\AbstractFactory\Templates\Twig\TwigRenderer;
+use Src\AbstractFactory\Templates\Twig\TwigTitle;
 
 final class TwigTemplateFactory implements TemplateFactoryInterface
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\Adapter;
+namespace Src\Adapter;
 
 /**
  * The SlackApi is some useful class, incompatible with the Target interface. You

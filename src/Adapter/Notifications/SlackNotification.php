@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\Adapter\Notifications;
+namespace Src\Adapter\Notifications;
 
-use Blockpc\PatronesPhp\Adapter\Interfaces\NotificationInterface;
-use Blockpc\PatronesPhp\Adapter\SlackApi;
+use Src\Adapter\Interfaces\NotificationInterface;
+use Src\Adapter\SlackApi;
 
 /**
  * The Adapter is a class that links the Target interface and the Adaptee class.

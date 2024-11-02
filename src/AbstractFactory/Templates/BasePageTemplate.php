@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Templates;
+namespace Src\AbstractFactory\Templates;
 
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\PageTemplateInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TitleTemplateInterface;
+use Src\AbstractFactory\Interfaces\PageTemplateInterface;
+use Src\AbstractFactory\Interfaces\TitleTemplateInterface;
 
 /**
  * The page template uses the title sub-template, so we have to provide the way

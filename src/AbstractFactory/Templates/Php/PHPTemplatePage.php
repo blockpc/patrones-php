@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Templates\Php;
+namespace Src\AbstractFactory\Templates\Php;
 
-use Blockpc\PatronesPhp\AbstractFactory\Templates\BasePageTemplate;
+use Src\AbstractFactory\Templates\BasePageTemplate;
 
 /**
  * The PHPTemplate variant of the whole page templates.

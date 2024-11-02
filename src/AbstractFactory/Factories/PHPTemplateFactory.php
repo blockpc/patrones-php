@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Factories;
+namespace Src\AbstractFactory\Factories;
 
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\PageTemplateInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TemplateFactoryInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TemplateRendererInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TitleTemplateInterface;
-use Blockpc\PatronesPhp\AbstractFactory\Templates\Php\PHPTemplatePage;
-use Blockpc\PatronesPhp\AbstractFactory\Templates\Php\PHPTemplateRenderer;
-use Blockpc\PatronesPhp\AbstractFactory\Templates\Php\PHPTemplateTitle;
+use Src\AbstractFactory\Interfaces\PageTemplateInterface;
+use Src\AbstractFactory\Interfaces\TemplateFactoryInterface;
+use Src\AbstractFactory\Interfaces\TemplateRendererInterface;
+use Src\AbstractFactory\Interfaces\TitleTemplateInterface;
+use Src\AbstractFactory\Templates\Php\PHPTemplatePage;
+use Src\AbstractFactory\Templates\Php\PHPTemplateRenderer;
+use Src\AbstractFactory\Templates\Php\PHPTemplateTitle;
 
 final class PHPTemplateFactory implements TemplateFactoryInterface
 {

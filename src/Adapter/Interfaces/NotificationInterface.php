@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\Adapter\Interfaces;
+namespace Src\Adapter\Interfaces;
 
 /**
  * The Target interface represents the interface that your application's classes

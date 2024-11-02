@@ -2,9 +2,9 @@
 
 // Copiar en public/index.php
 
-use Blockpc\PatronesPhp\AbstractFactory\Factories\PHPTemplateFactory;
-use Blockpc\PatronesPhp\AbstractFactory\Factories\TwigTemplateFactory;
-use Blockpc\PatronesPhp\AbstractFactory\Page;
+use Src\AbstractFactory\Factories\PHPTemplateFactory;
+use Src\AbstractFactory\Factories\TwigTemplateFactory;
+use Src\AbstractFactory\Page;
 
 $page = new Page('Sample page', 'This is the body.');
 

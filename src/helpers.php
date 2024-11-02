@@ -1,7 +1,8 @@
 <?php
 
-use Blockpc\PatronesPhp\Adapter\Interfaces\NotificationInterface;
-use Blockpc\PatronesPhp\Builder\Interfaces\SQLQueryBuilderInterface;
+use Src\Adapter\Interfaces\NotificationInterface;
+use Src\Bridge\Abstracts\PageBridge;
+use Src\Builder\Interfaces\SQLQueryBuilderInterface;
 
 /**
  * The client code can work with any class that follows the Target interface.
@@ -41,6 +42,18 @@ function clientBuilderCode(SQLQueryBuilderInterface $queryBuilder)
         ->getSQL();
 
     echo $query;
+
+    // ...
+}
+
+/**
+ * The client code usually deals only with the Abstraction objects.
+ */
+function clientBridgeCode(PageBridge $page)
+{
+    // ...
+
+    echo $page->view();
 
     // ...
 }

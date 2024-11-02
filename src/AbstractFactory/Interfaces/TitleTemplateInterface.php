@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory\Interfaces;
+namespace Src\AbstractFactory\Interfaces;
 
 /**
  * For instance, this Abstract Product interface describes the behavior of page

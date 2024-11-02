@@ -4,9 +4,9 @@ declare(strict_types=1);
 
 // copy and paste the following code into your public/index.php file
 
-use Blockpc\PatronesPhp\AbstractFactory\Factories\PHPTemplateFactory;
-use Blockpc\PatronesPhp\AbstractFactory\Factories\TwigTemplateFactory;
-use Blockpc\PatronesPhp\AbstractFactory\Page;
+use Src\AbstractFactory\Factories\PHPTemplateFactory;
+use Src\AbstractFactory\Factories\TwigTemplateFactory;
+use Src\AbstractFactory\Page;
 
 header('Content-type: text/plain');
 

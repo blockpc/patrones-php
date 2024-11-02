@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Blockpc\PatronesPhp\AbstractFactory;
+namespace Src\AbstractFactory;
 
-use Blockpc\PatronesPhp\AbstractFactory\Interfaces\TemplateFactoryInterface;
+use Src\AbstractFactory\Interfaces\TemplateFactoryInterface;
 
 /**
  * The client code. Note that it accepts the Abstract Factory class as the

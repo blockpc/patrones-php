@@ -3,7 +3,7 @@
     "description": "Revision de patrones de patrones de diseño en php",
     "autoload": {
         "psr-4": {
-            "Blockpc\\PatronesPhp\\": "src/"
+            "Src\\": "src/"
         },
         "files": [
             "src/helpers.php"
