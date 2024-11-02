@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 // copy and paste the following code into your public/index.php file
 
-// clientBuilderCode() is a helper function that expects an instance of the Notification interface.
+// clientBuilderCode() is a helper function that expects an instance of the SQLQueryBuilderInterface interface.
 // This function is in the src/helpers.php file. load by composer autoload
 
 use Src\Builder\Builders\MysqlQueryBuilder;

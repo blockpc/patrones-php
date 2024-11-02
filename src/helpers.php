@@ -3,6 +3,7 @@
 use Src\Adapter\Interfaces\NotificationInterface;
 use Src\Bridge\Abstracts\PageBridge;
 use Src\Builder\Interfaces\SQLQueryBuilderInterface;
+use Src\Composite\Abstracts\FormElement;
 use Src\FactoryMethod\Abstracts\SocialNetworkPoster;
 
 /**
@@ -69,4 +70,19 @@ function clientFactoryMethodCode(SocialNetworkPoster $creator)
     $creator->post("Hello world!");
     $creator->post("I had a large hamburger this morning!");
     // ...
+}
+
+/**
+ * Composite pattern
+ * The client code can work with form elements using the abstract interface.
+ * This way, it doesn't matter whether the client works with a simple component
+ * or a complex composite tree.
+ */
+function composite(FormElement $form)
+{
+    // ..
+
+    echo $form->render();
+
+    // ..
 }

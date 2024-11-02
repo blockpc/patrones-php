@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 // copy and paste the following code into your public/index.php file
 
-// clientBridgeCode() is a helper function that expects an instance of the Notification interface.
+// clientBridgeCode() is a helper function that expects an instance of the PageBridge.
 // This function is in the src/helpers.php file. load by composer autoload
 
 use Src\Bridge\ConcreteAbstractions\ProductPage;
