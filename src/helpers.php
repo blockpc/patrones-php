@@ -5,6 +5,7 @@ use Src\Bridge\Abstracts\PageBridge;
 use Src\Builder\Interfaces\SQLQueryBuilderInterface;
 use Src\Composite\Abstracts\FormElement;
 use Src\FactoryMethod\Abstracts\SocialNetworkPoster;
+use Src\Prototype\Page as PrototypePage;
 
 /**
  * The client code can work with any class that follows the Target interface.
@@ -85,4 +86,19 @@ function composite(FormElement $form)
     echo $form->render();
 
     // ..
+}
+
+/**
+ * Prototype pattern
+ * The client code can clone itself any page object.
+ */
+function prototype(PrototypePage $page, string $comment)
+{
+    // ..
+
+    $page->addComment($comment);
+
+    $pageCopy = clone $page;
+
+    return $pageCopy;
 }

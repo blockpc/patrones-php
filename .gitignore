@@ -1,2 +1,2 @@
 /vendor/
-/src/logs/php_errors.log
+/src/logs/*
