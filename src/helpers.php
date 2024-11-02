@@ -3,6 +3,7 @@
 use Src\Adapter\Interfaces\NotificationInterface;
 use Src\Bridge\Abstracts\PageBridge;
 use Src\Builder\Interfaces\SQLQueryBuilderInterface;
+use Src\FactoryMethod\Abstracts\SocialNetworkPoster;
 
 /**
  * The client code can work with any class that follows the Target interface.
@@ -55,5 +56,17 @@ function clientBridgeCode(PageBridge $page)
 
     echo $page->view();
 
+    // ...
+}
+
+/**
+ * The client code can work with any subclass of SocialNetworkPoster since it
+ * doesn't depend on concrete classes.
+ */
+function clientFactoryMethodCode(SocialNetworkPoster $creator)
+{
+    // ...
+    $creator->post("Hello world!");
+    $creator->post("I had a large hamburger this morning!");
     // ...
 }
