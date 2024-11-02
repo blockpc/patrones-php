@@ -4,6 +4,7 @@ use Src\Adapter\Interfaces\NotificationInterface;
 use Src\Bridge\Abstracts\PageBridge;
 use Src\Builder\Interfaces\SQLQueryBuilderInterface;
 use Src\Composite\Abstracts\FormElement;
+use Src\Decorator\Interfaces\InputFormat;
 use Src\FactoryMethod\Abstracts\SocialNetworkPoster;
 use Src\Prototype\Page as PrototypePage;
 
@@ -101,4 +102,19 @@ function prototype(PrototypePage $page, string $comment)
     $pageCopy = clone $page;
 
     return $pageCopy;
+}
+
+/**
+ * The client code might be a part of a real website, which renders user-
+ * generated content. Since it works with formatters through the Component
+ * interface, it doesn't care whether it gets a simple component object or a
+ * decorated one.
+ */
+function decorator(InputFormat $format, string $text)
+{
+    // ..
+
+    echo $format->formatText($text);
+
+    // ..
 }
